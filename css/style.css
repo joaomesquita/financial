@@ -1,0 +1,113 @@
+/*   
+	Theme Name: Financial Imobiliaria
+	Theme URL: http://financialimobiliaria.com.br
+	Description: Tema WordPress | Exclusivo - Layout, CSS, HTML, PHP e Wordpress.
+	Author: Alemaciell e João Mesquita
+	Author URI: http://alemaciell.com.br
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    outline: 0 !important;
+}
+
+.session {padding: 100px 0px;}
+.session-img, .header-page {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.header-page {
+    height: 780px;
+}
+
+.card-icon {
+    width: auto;
+    height: 200px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-icon p {
+    margin-bottom: 0px;
+}
+
+.card, .card-img-overlay {
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.progress {
+    background-color: #EBD1A9;
+    border-radius: 50px;
+    height: 2rem;
+}
+
+.progress-bar {
+    background-color: #F1B457;
+    color: #373435;
+    font-weight: 600;
+    overflow: visible;
+    align-items: flex-start;
+    padding-left: 20px;
+}
+
+input.form-control{
+    height: 50px;
+}
+
+.btn {
+    padding: 10px 80px;
+    border-radius: 5px;
+}
+
+.font-40 {font-size: 40px;}
+.font-28 {font-size: 28px;}
+.font-25 {font-size: 25px;}
+.font-20 {font-size: 20px;}
+.font-18 {font-size: 18px;}
+.font-17 {font-size: 17px;}
+.font-16 {font-size: 16px;}
+.font-15 {font-size: 15px;}
+.font-12 {font-size: 12px;}
+
+.bg-primary {background-color: #373435 !important;}
+.btn.bg-primary:hover {
+    border: 1px solid #373435;
+    background-color: #F1B457 !important;
+    color: #373435 !important;
+}
+.bg-primary-alternative {background-color: #302D2E;}
+.bg-secondary {background-color: #F1B457 !important;}
+.btn.bg-secondary:hover {
+    border: 1px solid #F1B457;
+    background-color: #373435 !important;
+    color: #F1B457 !important;
+}
+.bg-light {background-color: #F3F3F3;}
+.bg-gray {background-color: #E5E5E5;}
+
+.color-primary {color: #373435 !important;}
+.color-secondary {color: #EBD1A9 !important;}
+.color-secondary-alternative {color: #F1B457;}
+.color-light {color: #fff;}
+
+@media (max-width: 992px) {
+    .session{padding: 50px 25px}
+    .font-40 {font-size: xx-large;}
+    .font-28 {font-size: x-large;}
+    .font-20 {font-size: large;}
+}
